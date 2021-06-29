@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 /* Common */
-
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
 /* Navigazione */
 .main-nav {
     position: relative;
@@ -28,7 +30,7 @@
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background-color: yellow;
+    background-color: white;
     border-radius: 50%;
     box-shadow: 0 2px 5px lightgray;
     margin:0 15px;
@@ -48,3 +50,24 @@ section {
 .yellow-page {
     background-color: #ffff00;
 }
+
+.product-box {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.product-box .image img {
+    height: 400px;
+}
+
+.product-box .caption {
+    font-size: 50px;
+    color: #ffff00;
+}
+
+.product-box .caption.green {
+    color: #008000;
+}
+
